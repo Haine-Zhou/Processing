@@ -29,8 +29,8 @@ let fontRegular;
 let isPixelMode = true;
 
 function preload() {
-  // 使用系统等宽字体（像素感）
-  fontRegular = loadFont('https://cdnjs.cloudflare.com/ajax/libs/processing.js/1.4.8/fonts/OCRAStd-24.vlw');
+  // 使用系统等宽字体，无需加载外部文件
+  fontRegular = 'Courier New, monospace';
 }
 
 function setup() {
